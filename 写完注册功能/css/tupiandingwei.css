@@ -1,0 +1,66 @@
+.form{
+    color: red;
+    display: none;
+}
+a:link{text-decoration:none ; color:red ;}
+a:visited {text-decoration:none ; color:red;}
+a:hover {text-decoration:underline ; color:mediumspringgreen;}
+a:active {text-decoration:none ; color:blue;}
+#success{
+    display: none;
+}
+.aa{
+	position: absolute;
+	left: 60px;
+	top: 307px;
+}
+.bb{
+	position: absolute;
+	left: 1px;
+	top: 429px;
+}
+.cc{
+	position: absolute;
+	left: 63px;
+	top: 547px;
+}
+.dd{
+	position: absolute;
+	left: 123px;
+	top: 5px;
+}
+.sun
+{
+	position: absolute;
+	left: 648px;
+	top: 116px;
+}
+.forz
+{
+	position: absolute;
+	left: 271px;
+	top: 259px;
+	
+	width: 369px;
+	height: 430px;
+}
+.quanbu{
+	position: relative;
+   margin:0 auto;
+   width: 1048px;
+
+}
+.zi{
+	font-size: 18px;
+	position: absolute;
+	top: 510px;
+	left:33px;
+}
+.forx
+{
+	position: absolute;
+	left: 59px;
+	top: 2px;
+	width: 299px;
+	height: 430px;
+}
