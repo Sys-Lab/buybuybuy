@@ -70,60 +70,40 @@
 
 <div class="forz">
 <form name="zhuce" method="get" action="register.php">
-	
-
-    <br>
+	<br>
 	<font size="2">&nbsp;用户名<font size="2" color="#FF0000">*</font></font>
- 
+         <input id="username" type="text" style="width:200px; height:20px;position:relative; top:-5px;left:9px;" /><span class="form" id="user">**用户名空</span>
+            <span class="form" id="exitUser">用户已有</span>
            <br> <br> 
          <font size="2">&nbsp;&nbsp;&nbsp;密码<font size="2" color="#FF0000">*&nbsp;</font></font>
- 
+         <input id="password" type="password" style="width:200px; height:20px;position:relative; top:-5px;left:-2px" /><span class="form" id="pwd">*密码为空</span>
           <br> <br> 
          <font size="2">确认密码<font size="2" color="#FF0000">*&nbsp;</font></font>
-         
+         <input id="enpassword" type="password" style="width:200px; height:20px;position:relative; top:-5px;left:-9px" />
         <span class="form" id="enpwd">*密码为空</span><span class="form" id="enpwderror">*密码错误</span>
          <br> <br> 
-        <font size="2">&nbsp;&nbsp;性别<font size="2" color="#FF0000">*&nbsp;&nbsp;&nbsp;&nbsp;</font></font>
+        <font size="2">&nbsp;&nbsp;性别<font size="2" color="#FF0000">*&nbsp;</font></font>
          <input name="sex" type="radio" value="man" checked="checked" />
          <font size="2">男 </font>
          <input type="radio" name="sex" value="woman" />
          <font size="2">女</font>
          <br> <br> 
          <font size="2">&nbsp;&nbsp;邮箱<font size="2" color="#FF0000">*&nbsp;</font></font>
-     
+         <input id="email" type="text" style="width:200px; height:20px;position:relative; top:-5px;left:1px" /><span class="form" id="eml">*邮箱为空</span>
 <br> <br> 
-         <font size="2">&nbsp;&nbsp;生日</font>
-         
+         <font size="2">生日</font>
+         <input id="birth" type="text" value="1994-02-27" style="width:200px; height:20px;position:relative; top:-5px;left:26px" />
  <br> <br> 
           <font size="2">&nbsp;&nbsp;问题<font size="2" color="#FF0000">*&nbsp;</font></font>
-         
+         <input id="problem" type="text" style="width:200px; height:20px;position:relative; top:-5px;left:3px" /><span class="form" id="pro">*问题为空</span>
 <br> <br> 
           <font size="2">&nbsp;&nbsp;答案<font size="2" color="#FF0000">*&nbsp;</font></font>
-        
+         <input id="answer" type="text" style="width:200px; height:20px;position:relative; top:-5px;left:3px" /><span class="form" id="as">*答案为空</span>
 <br>
-<br> <br> 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
 <input name="checkbox" type="checkbox" checked="checked" value="checkbox">
-我完全同意<font size="5" color="#FF0000">扬哥</font>&nbsp;<span class="form" id="gouxuan">*请勾上</span>
+我完全同意<font size="2" color="#FF0000">扬哥</font>&nbsp;<span class="form" id="gouxuan">*请勾上</span>
 <input type="button" id ="button" value="注册">
-<div class="forx">
-     <input id="username" type="text" style="width:200px; height:20px;position:absolute; top:7px;left:0px;" /><span class="form" id="user">**用户名空</span>
-            <span class="form" id="exitUser">用户已有</span>
-                    <br><br>
-                    <input id="password" type="password" style="width:200px; height:18px;position:relative; top:8px;left:0px;" /><span class="form" id="pwd">*密码为空</span>
-                    <br><br>
-                    <input id="enpassword" type="password" style="width:200px; height:18px;position:relative; top:2px;left:0px;" />
-                     <br><br><br>
-                     <input id="email" type="text" style="width:200px; height:18px;position:relative; top:10px;left:0px;" /><span class="form" id="eml">*邮箱为空</span>
-                      <br> <br> 
-                     <input id="birth" type="text" value="1994-02-27" style="width:200px; height:18px;position:relative; top:1px;left:0px;" />
-                      <br> <br> 
-                     <input id="problem" type="text" style="width:200px; height:18px;position:relative; top:-6px;left:0px" /><span class="form" id="pro">*问题为空</span>
-                      <br> <br>
-                      <input id="answer" type="text" style="width:200px; height:18px;position:relative; top:-12px;left:0px" /><span class="form" id="as">*答案为空</span>
-</div>
-
 </form>
     <h4 id="success"><a href="index.html">注册成功,去看东西了</a></h4>
 <div class="zi">COPYRIGHT@2015.03 BEGObego</div>
