@@ -1,0 +1,52 @@
+.quanbu{
+	position: relative;
+   margin:0 auto;
+   width: 870px;
+
+}
+.share1{
+	position: absolute;
+	left: 0px;
+	top: 270px;
+	width: 360px;
+	height: 380px;
+}
+.sharebiao{
+	position: absolute;
+	left: 176px;
+	top: 70px;
+	width: 553px;
+	height: 213px;
+}
+.div1{
+float: left;
+height: 41px;
+background: #f5696c;
+width: 144px;
+position:relative;
+}
+.div2{
+text-align:center;
+padding-top:12px;
+font-size:15px;
+font-weight:800
+}
+.inputstyle{
+    width: 144px;
+    height: 41px;
+    cursor: pointer;
+    font-size: 30px;
+    outline: medium none;
+    position: absolute;
+    filter:alpha(opacity=0);
+    -moz-opacity:0;
+    opacity:50; 
+    left:0px;
+    top: 0px;
+}
+.zi{
+	font-size: 18px;
+	position: absolute;
+	top: 810px;
+	left:300px;
+}
