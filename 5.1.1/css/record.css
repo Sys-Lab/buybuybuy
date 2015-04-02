@@ -2,7 +2,7 @@
 	position: relative;
    margin:0 auto;
    width: 1000px;
-
+  
 }
 .daohang
 {
@@ -11,15 +11,23 @@
 	left: 0px;
 	width: 1000px;
 }
-.louceng
+.zhenglou
 {
 	position: absolute;
 	top:225px;
 	left: 170px;
 	width: 660px;
+}
+.louceng
+{
+	position: relative;
+	top:0px;
+	left: 0px;
+	width: 660px;
 	height: 240px;
 	background-color: #FFFFFF; 
 }
+
 .xiangkuang
 {
 	position: absolute;
@@ -46,4 +54,15 @@
 	width: 130px;
 	height:170px;
 	background-color: #FFFFFF; 
+}
+.yema
+{
+	position: relative;
+	top: 0px;
+	left: 100px;
+
+}
+.loukongbai
+{
+	position:relative;height:25px;width: 660px;
 }
